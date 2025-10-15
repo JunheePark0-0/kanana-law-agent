@@ -1,0 +1,33 @@
+# RAG
+sentence-transformers>=2.2.2   # BGE-M3 model
+chromadb==1.3.2                # Vector database 
+posthog>=3.0.0                 # Chroma telemetry monkey patch
+numpy>=1.24.0                  # Numerical computing
+pandas>=2.0.0                  # Data manipulation
+psutil>=5.9.0                  # System monitoring
+torch==2.6.0                   # Deep learning framework
+pydantic>=2.7.4                # Data validation (required by langchain)
+python-dotenv>=1.0.0           # .env loading
+PyYAML>=6.0                    # Prompt YAML parsing
+
+# Kanana
+transformers==4.57.3
+accelerate
+sentencepiece
+
+# Agent
+langchain-community>=0.2.0     # tool decorator usage
+langgraph>=0.1.0               # LangGraph workflow
+pdfplumber>=0.10.0             # PDF parsing with plumber
+pytesseract>=0.1.0             # OCR
+pdf2image>=1.16.0              # PDF to image
+kss>=2.0.0                     # Korean sentence splitter
+
+# Web Search
+tavily>=0.1.0                  # Web search API
+
+# FastAPI 서버
+fastapi>=0.111.0               # FastAPI web framework
+uvicorn[standard]>=0.30.0      # ASGI server
+python-multipart>=0.0.9        # multipart/form-data (파일 업로드)
+requests
