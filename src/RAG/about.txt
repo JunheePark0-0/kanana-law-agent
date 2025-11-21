@@ -1,0 +1,2 @@
+1. parsing_chunking
+- 파싱, 청킹 진행
